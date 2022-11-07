@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from "react"
 import './Header.css'
 
 import { Container } from 'reactstrap';
@@ -27,21 +27,27 @@ const navLinks = [
 ]
 
 const Header = () => {
+
+        const menuRef = useRef()
+
+        const menuToggle = ()=> menuRef.current.ClassList.toggle('active__menu')
+
   return (
        <header className="header">
             <Container>
                 <div className="navigation">
                     <div className="logo">
                         <h2 className="d-flex align-items-center gap-1">
-                            <span><i className="ri-restaurant-2-line"></i></span> Chef Food
+                            <span><i className="ri-restaurant-2-line"></i></span> Ninja Turtle Pizza
                         </h2>
 
                     </div>
-                    <div className="nav__menu">
+                    <div className="nav__menu"  ref={menuRef}>
+                        <div className="nav__list__wrapper d-flex align-items-center gap-5">
                         <ul className="nav__list">
                             {
                                 navLinks.map((item,index)=>(
-                                    <li className="nav__item" key={index}><a href={item.url}>{item.display}</a></li>
+                                    <li className="nav__item" key={index}><a href={item.url} onClick={menuToggle}>{item.display}</a></li>
                                    
                                 ))
                             }
@@ -50,8 +56,6 @@ const Header = () => {
                            
 
                         </ul>
-                    </div>
-
                         <div className="menu__right">
                             <div className="custom__search">
                                 <input type="text" placeholder='search item....' />
@@ -59,8 +63,16 @@ const Header = () => {
 
                             </div>
                         </div>
+
+
+                        </div>
+
+                        
+                    </div>
+
+                        
                             <div className="mobile__menu">
-                                <span><i class="ri-menu-line"></i></span>
+                                <span><i class="ri-menu-line" onClick={menuToggle}></i></span>
                             </div>
 
                 </div>
