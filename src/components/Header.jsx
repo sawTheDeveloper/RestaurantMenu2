@@ -59,16 +59,17 @@ const Header = () => {
                         <div className="menu__right">
                             <div className="custom__search">
                                 <input type="text" placeholder='search item....' />
-                                <span><i class="ri-search-line"></i></span>
-
+                                <span><i class="ri-search-line"></i>
+                                </span>
                             </div>
+                          </div>
                         </div>
+                     </div>
 
-
-                        </div>
-
-                        
-                    </div>
+                                <span className="cart__icon">
+                                <i class="ri-shopping-basket-line"></i>    
+                                <span className="badge">2</span>
+                                </span>
 
                         
                             <div className="mobile__menu">
