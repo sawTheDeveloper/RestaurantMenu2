@@ -13,7 +13,7 @@ const HeroSlider = () => {
                     <div>
                         <div className="slider__wrapper d-flex align-items-center justify-content-between pt-5">
                             <div className="slider__content w-50 ps-2">
-                                <h2>{item.title}</h2>
+                                <h2 className="mb-3">{item.title}</h2>
                                 <p>{item.desc}</p>
                                 <button className="btn">Explore Food</button>
                             </div>

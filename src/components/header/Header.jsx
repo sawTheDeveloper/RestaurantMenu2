@@ -38,7 +38,7 @@ const Header = () => {
                 <div className="navigation">
                     <div className="logo">
                         <h2 className="d-flex align-items-center gap-1">
-                            <span><i className="ri-restaurant-2-line"></i></span> Ninja Turtle Pizza
+                            <span><i className="ri-restaurant-2-line"></i></span> Restaurant Menu/Delivery App 
                         </h2>
 
                     </div>
