@@ -8,8 +8,13 @@ const Testimonials = () => {
 
 
     const settings = {
-        infinite:true
-    }
+        infinite:true,
+        speed:500,
+        slidesToShow:1,
+        SlideToScroll:1,
+        autoplay:true,
+        autoplaySpeed:3000,
+    };
   return ( 
        <section>
         <Container>
@@ -18,7 +23,9 @@ const Testimonials = () => {
                     <div className="slider__wrapper d-flex align-items-center gap-5">
                         <div className="slider__content w-50">
                         <h2 className='mb-4'>What our customers our saying</h2>
-                    <Slider>
+                    <Slider {...settings}>
+
+                       {/* Add Testimonials below */}
                        <div>
                         <div className="single__testimonial">
                             <p className="review__content">
