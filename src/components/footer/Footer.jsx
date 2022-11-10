@@ -56,7 +56,7 @@ const Footer = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque natus debitis reiciendis officia. Error, ea?</p>
                     </div>
                     </Col>
-                        <Col lg='2' md='4' sm='6'>
+                        <Col lg='3' md='4' sm='6'>
                             <h5 className="footer__link-title">
                                 Quick Links 
                             </h5>
@@ -85,8 +85,8 @@ const Footer = () => {
                             </ListGroup>
                         </Col>
 
-                            <Col lg='4' md='4' sm='6'>
-                                <h5 className="footer__link-title"></h5>
+                            <Col lg='3' md='4' sm='6'>
+                                <h5 className="footer__link-title">Contact</h5>
                                 
                                 <ListGroup>
                                     <ListGroupItem className="link__item d-flex align-items-center gap-3">
@@ -103,8 +103,20 @@ const Footer = () => {
 
             </Row>
         </Container>
-    </div>
-
+    </div>                  
+                           <div className="footer__bottom">               
+                        <Container>
+                            <Row>
+                                <Col lang='12'>
+                                    <p>copyright 2022. Developed by Patrick Powell. All Rights </p>
+                              
+                            
+                    
+                        
+                        </Col>
+                            </Row>
+                        </Container>   
+                        </div>                   
   </footer>
 }
 
