@@ -1,14 +1,14 @@
 .btn{
     padding: 7px 25px;
     border-radius: 5px;
-    background: #f76e11;
+    background: #5c8aad;
     color: #fff;
     font-size: 0.9rem;
     margin-top: 30px;
 }
 
 .btn:hover{
-    color: #f76e11;
+    color: #3c7fb2;
 }
 
 @media only screen and (max-width:992px){

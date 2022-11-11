@@ -1,8 +1,13 @@
 
 /* =========== google fonts =========== */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');  
+
+@font-face {
+  font-family: Imported;
+  src: url(./font/maiden.ttf);
+}
 
 /* ======== base style ======= */
 
@@ -10,6 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Abril Fatface', cursive;
 }
 
 body,
@@ -26,15 +32,15 @@ h1,
 h2 {
   font-size: 2rem;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
-  color: #0bb619;
+  font-family: 'Abril Fatface', cursive;
+  color: #915a9a;
 }
 
 p {
   font-size: 1rem;
   color: #c4c4c4;
   line-height: 30px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Lobster', cursive;
 }
 
 a {

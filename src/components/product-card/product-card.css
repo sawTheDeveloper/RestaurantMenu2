@@ -6,7 +6,7 @@
 }
 
 .single__product:hover{
-    box-shadow: 5px 5px 10px -5px #f5b70a;
+    box-shadow: 5px 5px 10px -5px #3c7fb2;
 }
 
 .product__content{
@@ -15,12 +15,12 @@
 }
 
 .product__content h6{
-    color: #f5b70a;
+    color: #5c8aad;
     text-align: center;
 }
 
 .rating span i{
-    color: #f76E11;
+    color: #5c8aad;
 }
 
 .rating{
@@ -32,7 +32,7 @@
 }
 
 .price span{
-    color:#f5b70a;
+    color:#5c8aad;
     font-size: 1.3rem;
     font-weight: 500;
 }
@@ -41,7 +41,7 @@
     width: 30px;
     height: 30px;
     border-radius: 5px;
-    background: #f76E11;
+    background: #5c8aad;
     display: flex;
     align-items: center;
     justify-content: center;
