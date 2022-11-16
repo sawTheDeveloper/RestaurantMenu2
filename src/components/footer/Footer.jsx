@@ -90,7 +90,7 @@ const Footer = () => {
                                 
                                 <ListGroup>
                                     <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                                    <i class="ri-map-pin-line"></i> Sylhet, Bangladesh{""}
+                                    <i class="ri-map-pin-line"></i> Seattle,WA{""}
                                     </ListGroupItem>
                                     <ListGroupItem className="link__item d-flex align-items-center gap-3">
                                     <i class="ri-mail-line"></i> example@gmail.com{""}
